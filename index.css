@@ -44,3 +44,26 @@ button {
     font-size: 30px;
     margin-top: 50px;
 }
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    button {
+        width: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #save-el {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+}
